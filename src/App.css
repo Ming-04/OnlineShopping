@@ -1,0 +1,87 @@
+.header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.header ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.totalPrice{
+ padding: 0 5px;
+}
+
+.cartdesc{
+ margin: 20px 0px;
+ font-weight: bold;
+ font-size: 20px;
+}
+.rowdirection{
+  flex-direction: row;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.DropDown{
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+#ProdList{
+  margin: 0;
+}
+
+.footer .section {
+  display: inline-block;
+  width: 33%;
+}
+
+.card{
+  margin: 1rem 1rem;
+}
+
+.smallfooter{
+  font-size: 70%;
+}
+
+#ProdList{
+  text-align: justify;
+}
+
+.contact-page {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.contact-page form {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.contact-page input,
+.contact-page button {
+  display: block;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid #cec9c9;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+}
