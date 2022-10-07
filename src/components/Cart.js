@@ -12,7 +12,7 @@ function Cart({id,oprice, setOprice, cartIsOpen, setModalIsOpen, product, orderq
   );*/  
 
   function Order(){
-    console.log('ordermo');
+    alert('Thank you for ordering.');
   }
 
   function RemoveAll(){
