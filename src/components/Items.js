@@ -22,6 +22,8 @@ function Add(){
       alert('Quantity must not be less than 0.');
     }
     else{
+       console.log(size);
+       console.log(name);
       idholder = idholder + 1;
       setOprice(oprice = oprice + orderquantity * 150)
       setMyProduct([...product, {id:idholder, productname:name, orderquantity:orderquantity ,size:size }])
