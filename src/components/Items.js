@@ -22,20 +22,12 @@ function Add(){
       alert('Quantity must not be less than 0.');
     }
     else{
-      let quantityholder = product.quantityholder;
-       if (product.name == name && product.size == size ){
-          orderquantity = quantityholder + orderquantity;
-       }
-       else
-       {
+        idholder = idholder + 1;
         setOprice(oprice = oprice + orderquantity * 150)
         setMyProduct([...product, {id:idholder, productname:name, orderquantity:orderquantity ,size:size }])
         setProductname('');
         setOrderquantity('');
         setSize('');  
-       }
-      idholder = idholder + 1;
-   
     }
     document.getElementById(name).value = "";
     document.getElementById('SizeSelector').value = 'Small';
